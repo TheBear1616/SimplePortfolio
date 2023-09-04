@@ -283,6 +283,10 @@ section {
   display: flex;
 }
 
+.text-container {
+  text-align: justify;
+}
+
 .about-pic {
   border-radius: 2rem;
 }
@@ -310,7 +314,7 @@ section {
 
 .section__pic-container {
   height: 400px;
-  width: 400px;
+  width: 50%;
   margin: auto 0;
 }
 
@@ -337,15 +341,16 @@ section {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2.5rem;
   justify-content: space-around;
 }
 
 article {
+  padding-left: 15%;
+  padding-right: 15%;
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -355,7 +360,11 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+#projectsOne {
+  position: relative;
+}
+
+#projectsTwo {
   position: relative;
 }
 
